@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>APP</title>
+    <link rel="stylesheet" href="app.css" type="text/css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <section class="page">
+      <h1>Shopping List</h1>
+      <section class="page-actions">
+         <button name="add">Add</button>
+	 <button name="clear">Clear</button>
+	 <button name="empty">Empty</button>
+      </section>
+      <ul class="shopping-list">
+        <li class="item-template">
+           <span class="item-name">first</span>
+           <section class="item-actions">
+             <button name="complete">Complete</button>
+             <button name="delete">Delete</button>
+           </section>
+      </ul>
+    </section>
+    <script src="../vendor/jquery.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+  </body>
+</html>

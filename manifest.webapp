@@ -1,0 +1,13 @@
+{
+  "name": "Shopping List",
+  "version": "0.1.0",
+  "launch_path": "/01-mobile-tweaks/index.html",
+  "icons": {
+    "128": "/icon-128.png"
+  },
+  "developer": {
+    "name": "ALCA Societa' Cooperativa",
+    "url": "http://alcacoop.it"
+  },
+  "description": "a very simple example OpenWebApp created by ALCA Societa' Cooperativa for the 'FirefoxOS Hackaton @ Rome 2013' presentation 'Develop on Firefox OS'"
+}

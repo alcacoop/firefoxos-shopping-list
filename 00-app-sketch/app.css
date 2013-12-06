@@ -1,0 +1,13 @@
+.page, .page-actions,
+.shopping-list,
+.item-template, .item-actions {
+    border: 1px dashed black;
+}
+
+.item-template {
+    display: none;
+}
+
+.shopping-item.completed {
+    text-decoration: line-through;
+}
